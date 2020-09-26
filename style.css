@@ -1,32 +1,40 @@
 body {
     background-color: rgb(189, 155, 192);
     text-align: center;
+    
+}
+
+h1 {
     font-style:inherit;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
+    font-size: 50px;
 }
 
 input {
     border-radius: 15px;
     border-width: 3p;
     border-color: rgb(26, 25, 133);
+    text-align: center;
+    font-weight: bold;
 }
 
 .sub {
-    width: 25px;
+    width: 35px;
 }
 
 img {
+    margin-bottom: 20px;
     width: 30%;
     height: 30%;
 }
 
 select {
     border-radius: 15px;
+    width: 35px;
 }
 
 span {
     font-size: 30px;
     font-family: cursive;
- master
+ 
 }
