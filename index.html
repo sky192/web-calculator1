@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Web Calculator</h1>
+    <img src="https://www.symbolab.com/public/images/home_right.png" alt="">
+    <form onsubmit="calculate(); return false">
+        <input class="in" type="text" id="first">
+
+
+        <select id="operand">
+            <option value='+'>+</option>
+            <option value='-'>-</option>
+            <option value='*'>*</option>
+            <option value='/'>/</option>
+        </select>
+
+        <input class="in" type="text" id="second">
+        <input class="sub" type="submit" value="=">
+    </form>
+    <br>
+    <span id="result"></span>
+
+</body>
+
+</html>
